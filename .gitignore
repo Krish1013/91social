@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+# Database file (committed empty; re-seeded on first run)
+*.db
+# Environment
+.env
+# Build
+frontend/build/
+# OS
+.DS_Store
+# Logs
+*.log
+npm-debug.log*
