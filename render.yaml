@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: hero-cycles-backend
+    env: node
+    repo: https://github.com/Krish1013/91social
+    branch: main
+    root: backend
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    plan: free
+    envVars:
+      - key: MONGODB_URI
+        sync: false
+      - key: FRONTEND_URL
+        sync: false
